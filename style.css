@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #eef2f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-left: 5px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+.weather {
+    margin-top: 20px;
+    background: #f9fafb;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.wishlist-form-container{
+   display: none;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card h3 {
+    margin: 0 0 4px 0;
+}
+.card p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+.placeholder {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-delete {
+    background-color: #af2013;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    min-width: 100px;
+
+}
+
+.wishlist-form-container {
+    display: none;
+}

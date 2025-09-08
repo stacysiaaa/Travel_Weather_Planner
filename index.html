@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Weather Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>☀️Погода</h1>
+    <label>
+    <input type="text" id="cityInput" placeholder="Введіть місто англійською">
+    </label>
+    <button id="searchBtn">Знайти</button>
+    <p class="error" id="error"></p>
+    <div class="weather" id="weather"></div>
+</div>
+
+<div id="wishlist-form-container" class="wishlist-form-container">
+    <h3>Додати місто до списку бажаних подорожей</h3>
+    <label>
+    <input type="text" id="note" placeholder="Ваша нотатка про місто">
+    </label>
+    <button id="addToWishlistBtn">Додати</button>
+</div>
+
+<h3>Список бажаних подорожей:</h3>
+<div id="wishlist-container"></div>
+<script src="script.js"></script>
+</body>
+</html>
